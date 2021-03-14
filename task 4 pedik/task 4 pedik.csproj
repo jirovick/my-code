@@ -3,7 +3,8 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <RootNamespace>task_4_pedik</RootNamespace>
+        <RootNamespace>task_1</RootNamespace>
+        <AssemblyName>task 1 14.03.2021</AssemblyName>
     </PropertyGroup>
 
 </Project>

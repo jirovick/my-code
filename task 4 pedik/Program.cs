@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace task_4_pedik
+namespace task_1
 {
     class Program
     {
