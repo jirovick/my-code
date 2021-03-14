@@ -1,0 +1,13 @@
+C:\Users\Vanya\RiderProjects\2 11\projects\task 4 pedik\bin\Debug\netcoreapp3.1\task 4 pedik.exe
+C:\Users\Vanya\RiderProjects\2 11\projects\task 4 pedik\bin\Debug\netcoreapp3.1\task 4 pedik.deps.json
+C:\Users\Vanya\RiderProjects\2 11\projects\task 4 pedik\bin\Debug\netcoreapp3.1\task 4 pedik.runtimeconfig.json
+C:\Users\Vanya\RiderProjects\2 11\projects\task 4 pedik\bin\Debug\netcoreapp3.1\task 4 pedik.runtimeconfig.dev.json
+C:\Users\Vanya\RiderProjects\2 11\projects\task 4 pedik\bin\Debug\netcoreapp3.1\task 4 pedik.dll
+C:\Users\Vanya\RiderProjects\2 11\projects\task 4 pedik\bin\Debug\netcoreapp3.1\task 4 pedik.pdb
+C:\Users\Vanya\RiderProjects\2 11\projects\task 4 pedik\obj\Debug\netcoreapp3.1\task 4 pedik.csprojAssemblyReference.cache
+C:\Users\Vanya\RiderProjects\2 11\projects\task 4 pedik\obj\Debug\netcoreapp3.1\task 4 pedik.AssemblyInfoInputs.cache
+C:\Users\Vanya\RiderProjects\2 11\projects\task 4 pedik\obj\Debug\netcoreapp3.1\task 4 pedik.AssemblyInfo.cs
+C:\Users\Vanya\RiderProjects\2 11\projects\task 4 pedik\obj\Debug\netcoreapp3.1\task 4 pedik.csproj.CoreCompileInputs.cache
+C:\Users\Vanya\RiderProjects\2 11\projects\task 4 pedik\obj\Debug\netcoreapp3.1\task 4 pedik.dll
+C:\Users\Vanya\RiderProjects\2 11\projects\task 4 pedik\obj\Debug\netcoreapp3.1\task 4 pedik.pdb
+C:\Users\Vanya\RiderProjects\2 11\projects\task 4 pedik\obj\Debug\netcoreapp3.1\task 4 pedik.genruntimeconfig.cache
