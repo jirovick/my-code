@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vanya\\RiderProjects\\2 11\\my-code\\task 4 pedik\\task 4 pedik.csproj",
+      "projectUniqueName": "C:\\Users\\Vanya\\RiderProjects\\2 11\\my-code\\task_1 osnovi\\task_1 osnovi.csproj",
       "projectName": "task 1 14.03.2021",
-      "projectPath": "C:\\Users\\Vanya\\RiderProjects\\2 11\\my-code\\task 4 pedik\\task 4 pedik.csproj",
+      "projectPath": "C:\\Users\\Vanya\\RiderProjects\\2 11\\my-code\\task_1 osnovi\\task_1 osnovi.csproj",
       "packagesPath": "C:\\Users\\Vanya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vanya\\RiderProjects\\2 11\\my-code\\task 4 pedik\\obj\\",
+      "outputPath": "C:\\Users\\Vanya\\RiderProjects\\2 11\\my-code\\task_1 osnovi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vanya\\AppData\\Roaming\\NuGet\\NuGet.Config",

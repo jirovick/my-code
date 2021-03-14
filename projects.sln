@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projects", "задание 2\задание 2.csproj", "{7C7E2056-3413-4121-A167-C8ADDA9C942B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task 4 pedik", "task 4 pedik\task 4 pedik.csproj", "{9E22934E-5A9F-4C66-AB76-23ACCD4D92A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task_1 osnovi", "task_1 osnovi\task_1 osnovi.csproj", "{9E22934E-5A9F-4C66-AB76-23ACCD4D92A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Them switch", "Them switch", "{F2D0CCA0-BEE9-456B-89BF-32C0DA6986EE}"
 EndProject
