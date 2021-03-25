@@ -8,47 +8,25 @@ namespace dsaassd
         {
             Console.WriteLine("введите длину массива");
             int length = Convert.ToInt32(Console.ReadLine());
-            Random rnd = new Random();
-            int[] mass = new int[length];
-            for (int i = 0; i < mass.Length; i++)
-            {
-                mass[i] = rnd.Next(0, 100);
-                Console.Write(mass[i] + " ");
-            }
-
-            int half = length / 2;
-            int temp = 0;
-            for (int i = 0; i < mass.Length - half; i++)
-            {
-                for (int j = i + 1; j < mass.Length; j++)
-                {
-                    if (mass[i] > mass[j])
-                    {
-                        temp = mass[i];
-                        mass[i] = mass[j];
-                        mass[j] = temp;
-                    }
-                }
-            }
-            for (int i = 0; i < mass.Length - half - 1; i++)
-            {
-                for (int j = i + 1; j < mass.Length - 1; j++)
-                {
-                    if (mass[j] > mass[i])
-                    {
-                        temp = mass[j];
-                        mass[j] = mass[i];
-                        mass[j] = temp;
-                    }
-                }
-            }
+            
+            Console.WriteLine("введите минимальное число");
+            int min = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine("введите максимальное число");
+            int max = Convert.ToInt32(Console.ReadLine());
+            int[] mass = ArrayHelper.CreateRandom(length, min, max);
+            
+            Console.WriteLine("Сгенерированный массив");
+            ArrayHelper.ArrayWrite(mass);
+            
+            int[] sortedArray = ArrayHelper.SortAsc(mass, 0, mass.Length / 2);
+            sortedArray = ArrayHelper.SortDesc(sortedArray, sortedArray.Length / 2, sortedArray.Length);
+            
             Console.WriteLine("Вывод отсортированного массива");
-            for (int i = 0; i < mass.Length; i++)
-            {
-                Console.WriteLine(mass[i]);
-            }
-
+            ArrayHelper.ArrayWrite(sortedArray);
             Console.ReadLine();
         }
+        
+        
     }
 }
