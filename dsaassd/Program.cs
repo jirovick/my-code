@@ -25,6 +25,7 @@ namespace dsaassd
             Console.WriteLine("Вывод отсортированного массива");
             ArrayHelper.ArrayWrite(sortedArray);
             Console.ReadLine();
+            
         }
         
         

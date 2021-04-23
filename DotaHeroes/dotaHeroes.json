@@ -1,0 +1,20 @@
+﻿[
+  {
+    "name": "ursa",
+    "discription" : "лесная псина",
+    "SpellsCount": 4
+  } ,
+  {
+    "name": "io",
+    "discription" : "шар",
+    "SpellsCount": 5
+  },
+  {
+    "name": "luna",
+    "discription" : "шваль на медведе",
+    "SpellsCount": 4
+  }
+]
+
+
+  

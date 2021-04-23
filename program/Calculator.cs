@@ -15,7 +15,6 @@ namespace задание_2
             double resault;
             resault = number1 + number2;
             return resault;
-          
         }
 
         /// <summary>
@@ -24,7 +23,7 @@ namespace задание_2
         /// <param name="number1">первое число</param>
         /// <param name="number2">второе число</param>
         /// <returns></returns>
-        public static double CountMinus (double number1, double number2)
+        public static double CountMinus(double number1, double number2)
         {
             double resault;
             resault = number1 - number2;
@@ -56,6 +55,7 @@ namespace задание_2
             resault = number1 / number2;
             return resault;
         }
+
         /// <summary>
         /// находит тангенс угла
         /// </summary>
@@ -67,6 +67,7 @@ namespace задание_2
             resault = Math.Tan(number1);
             return resault;
         }
+
         /// <summary>
         /// находит косинус угла
         /// </summary>
@@ -78,6 +79,7 @@ namespace задание_2
             resault = Math.Cos(number1);
             return resault;
         }
+
         /// <summary>
         /// находит синус угла
         /// </summary>
@@ -87,6 +89,52 @@ namespace задание_2
         {
             double resault;
             resault = Math.Sin(number1);
+            return resault;
+        }
+
+        public static double Execute(string operation, double number1, double number2, double resault)
+        {
+            switch (operation)
+            {
+                case "+":
+                    resault = CountPlus(number1, number2);
+                    break;
+                case "-":
+                    resault = CountMinus(number1, number2);
+
+                    break;
+                case "*":
+                    resault = CountTimes(number1, number2);
+
+                    break;
+                case "/":
+                    if (number2 == 0)
+                    {
+                        resault = 0;
+                    }
+                    else
+                    {
+                        resault = CountDiv(number1, number2);
+                    }
+
+                    break;
+                case "tn":
+                    resault = CountTan(number2);
+
+                    break;
+                case "sin":
+                    resault = CountSin(number2);
+
+                    break;
+                case "cos":
+                    resault = CountCos(number2);
+
+                    break;
+                case "log":
+                    resault = Math.Log10(number1);
+                    break;
+            }
+
             return resault;
         }
     }
